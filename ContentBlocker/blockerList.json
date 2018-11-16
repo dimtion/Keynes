@@ -1,0 +1,41 @@
+[{
+    "trigger": {
+        "url-filter": "doubleclick.net"
+    },
+    "action": {
+        "type": "block"
+    }
+},
+{
+    "trigger": {
+        "url-filter": "adsense"
+    },
+    "action": {
+        "type": "block"
+    }
+},
+{
+    "trigger": {
+        "url-filter": "google.*.com/"
+    },
+    "action": {
+        "type": "block"
+    }
+},
+{
+    "trigger": {
+        "url-filter": "amazon-adsystem.com/"
+    },
+    "action": {
+        "type": "block"
+    }
+},
+{
+    "trigger": {
+        "url-filter": ".*"
+    },
+    "action": {
+        "type": "css-display-none",
+        "selector": ".ad-panel__container, .ad-panel__container--styled, .ad-panel__googlead, .classified-ads, .fe-blogs__top-ad-wrapper, .fe-blogs__top-ad, .fe-blogs__sidebar-ad-wrapper"
+    }
+}]
